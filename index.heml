@@ -1,0 +1,61 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>hc_output</title>
+    </head>
+    <body>
+        <header id="header" class="wrapper">
+            <h1>レジュメ</h1>
+            <nav>
+                <ul>
+                    <li>自己紹介</li>
+                    <li>プロフィール画像</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="main-visual">
+                <img src="1920x1280.png" alt="">
+            </div>
+            <section id="self-intro" class="wrapper">
+                <h2 class="section-title">自己紹介</h2>
+                <div class="container">
+                    <div class="text-contents">
+                        <h3 class="image-title">鈴木太郎</h3>
+                        <p>
+                            鈴木太郎です。鈴木太郎です。鈴木太郎です。鈴木太郎です。鈴木太郎です。<br>
+                            鈴木太郎です。鈴木太郎です。鈴木太郎です。鈴木太郎です。鈴木太郎です。<br>
+                            鈴木太郎です。鈴木太郎です。鈴木太郎です。鈴木太郎です。鈴木太郎です。<br>
+                        </p>
+                    </div>
+                    <img src="150x150.png" alt="">
+                </div>
+            </section>
+            <section id ="self-image" class="wrapper">
+                <h2 class="section-title">プロフィール画像</h2>
+                <ul>
+                    <li>
+                        <h3 class="image-title">タイトルタイトル</h3>
+                        <p>テキストテキストテキスト</p>
+                        <img src="640x424.png" alt="">
+                    </li>
+                    <li>
+                        <h3 class="image-title">タイトルタイトル</h3>
+                        <p>テキストテキストテキスト</p>
+                        <img src="640x424.png" alt="">
+                    </li>
+                    <li>
+                        <h3 class="image-title">タイトルタイトル</h3>
+                        <p>テキストテキストテキスト</p>
+                        <img src="640x424.png" alt="">
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer id="footer">
+            <p>© 2023 taro suzuki</p>
+        </footer>
+    </body>
+</html>
