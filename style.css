@@ -1,0 +1,136 @@
+
+/*共通設定*/
+html {
+    font-size: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+/*各クラスの設定*/
+.section-title {
+    display: inline-block;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 60px;
+    border-bottom: solid 1px black;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto 100px auto;
+    padding: 0 4%;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#header h1 {
+    border: 1px solid black;
+    background-color: #203744;
+    color: white;
+    line-height: 1px;
+    padding: 30px;
+}
+
+#header ul {
+    display: flex;
+    padding: 10px 0;
+}
+
+#header li {
+    margin-left: 30px;
+}
+
+#main-visual {
+    margin-bottom: 100px;
+}
+
+#main-visual img{
+    width: 100%;
+    max-width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+#self-intro .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#self-intro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+#self-intro .image-title {
+    text-align: left;
+}
+
+/*h3*/
+.image-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#self-image ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#self-image li {
+    width: 32%;
+}
+
+#footer {
+    font-size: 8px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/*スマホ対応*/
+
+@media screen and (max-width: 600px) {
+    #self-intro .container, #self-image ul {
+        flex-direction: column;
+        margin-right: 30px; /*若干画像が右に寄っていたので調整*/
+    }
+
+    #self-intro p {
+        text-align: left;
+    }
+
+
+    #self-image li {
+        width: 100%;
+
+    }
+
+
+    #header h1 {
+        padding: 20px;
+        font-size: 18px; /*どのサイズにも対応したフォントサイズに調整*/
+    }
+
+
+    #header li {
+        margin: 0px;
+        font-size: 10px;
+        padding: 3px; /*li間が詰まっていたので隙間を確保*/
+    }
+
+}
